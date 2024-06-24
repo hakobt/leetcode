@@ -14,6 +14,6 @@ class App {
 
 fun main() {
     val run = LongestSubstring()
-    val max = run.lengthOfLongestSubstring("tmmzuxt")
+    val max = run.lengthOfLongestSubstring("pwwkew")
     println(max)
 }
