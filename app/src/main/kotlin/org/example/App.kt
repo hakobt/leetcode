@@ -13,7 +13,7 @@ class App {
 }
 
 fun main() {
-    val run = LongestSubstring()
-    val max = run.lengthOfLongestSubstring("pwwkew")
-    println(max)
+    val run = ThreeSum()
+    val sum = run.threeSum(intArrayOf(-1, 0, 1, 2, -1, -4))
+    println(sum)
 }
