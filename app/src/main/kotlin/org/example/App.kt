@@ -4,6 +4,7 @@
 package org.example
 
 import InsertInterval
+import Trie
 
 class App {
     val greeting: String
@@ -13,7 +14,7 @@ class App {
 }
 
 fun main() {
-    val run = ThreeSum()
-    val sum = run.threeSum(intArrayOf(-1, 0, 1, 2, -1, -4))
-    println(sum)
+    val trie = Trie()
+    trie.insert("apple")
+    trie.insert("app")
 }
