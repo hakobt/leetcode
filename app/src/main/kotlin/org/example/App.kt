@@ -4,6 +4,7 @@
 package org.example
 
 import InsertInterval
+import ProductExceptSelf
 import Trie
 
 class App {
@@ -14,7 +15,7 @@ class App {
 }
 
 fun main() {
-    val trie = Trie()
-    trie.insert("apple")
-    trie.insert("app")
+    val answer =
+        maxProduct(intArrayOf(0, 10, 10, 10, 10, 10, 10, 10, 10, 10, -10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0))
+    println(answer)
 }
