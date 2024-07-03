@@ -5,6 +5,6 @@ class TreeNode(var `val`: Int) {
     var right: TreeNode? = null
 }
 
-class Node(var `val`: Int) {
-    var neighbors: ArrayList<Node?> = ArrayList<Node?>()
+class GraphNode(var `val`: Int) {
+    var neighbors: ArrayList<GraphNode?> = ArrayList<GraphNode?>()
 }
